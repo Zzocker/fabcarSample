@@ -1,0 +1,12 @@
+OrdererOrgs:
+  - Name : Orderer
+    Domain: acme.com
+    Specs:
+      - Hostname: orderer
+        CommonName: orderer
+PeerOrgs:
+  - Name: Org1
+    Domain: acme.com
+    Specs:
+      - Hostname: devpeer
+        CommonName : devpeer

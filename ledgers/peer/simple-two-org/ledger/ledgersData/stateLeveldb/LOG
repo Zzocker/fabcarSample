@@ -1,0 +1,25 @@
+=============== Dec 1, 2019 (UTC) ===============
+17:28:10.397271 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:28:10.399263 db@open opening
+17:28:10.399804 version@stat F·[] S·0B[] Sc·[]
+17:28:10.401097 db@janitor F·2 G·0
+17:28:10.401179 db@open done T·1.86652ms
+=============== Dec 1, 2019 (UTC) ===============
+17:51:43.429519 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:51:43.431637 version@stat F·[] S·0B[] Sc·[]
+17:51:43.431713 db@open opening
+17:51:43.432671 journal@recovery F·1
+17:51:43.434458 journal@recovery recovering @1
+17:51:43.436011 memdb@flush created L0@2 N·12 S·4KiB "acm..l\x00\x00,v12":"acm..occ,v5"
+17:51:43.436538 version@stat F·[1] S·4KiB[4KiB] Sc·[0.25]
+17:51:43.438074 db@janitor F·3 G·0
+17:51:43.438133 db@open done T·6.391547ms
+=============== Dec 3, 2019 (UTC) ===============
+10:27:57.721007 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:27:57.750288 version@stat F·[1] S·4KiB[4KiB] Sc·[0.25]
+10:27:57.750405 db@open opening
+10:27:57.750805 journal@recovery F·1
+10:27:57.752695 journal@recovery recovering @3
+10:27:57.753775 version@stat F·[1] S·4KiB[4KiB] Sc·[0.25]
+10:27:57.757249 db@janitor F·3 G·0
+10:27:57.757335 db@open done T·6.855041ms
